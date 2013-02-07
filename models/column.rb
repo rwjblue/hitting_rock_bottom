@@ -51,7 +51,6 @@ class Column
 
   def drip_from_top(source_level)
     cells.each.with_index do |cell, index|
-      puts "#{cell} - #{index} - #{cells.length} - #{source_level}"
       next if cell.to_s != ' '
       next if cells.length - index > source_level
 

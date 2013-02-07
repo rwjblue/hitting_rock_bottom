@@ -8,7 +8,6 @@ class Cave
   end
 
   def flood(volume = self.default_volume)
-    puts volume
     volume.times do
       drip
       puts to_s
